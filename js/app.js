@@ -37,7 +37,8 @@
         if(answer4.toLowerCase() === 'yes' || answer4 === 'y'){
         alert('I was just gonna say. Will you make sure your shoes are tied before you trip, one is undone');
      }  else if(answer4.toLowerCase() === 'no' || answer4 === 'n'){
-        alert('Make sure you shoes are tied, you will trip and hurt yourself');}
+        alert('Make sure you shoes are tied, you will trip and hurt yourself');
+      }
         
 
 
