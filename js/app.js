@@ -109,7 +109,7 @@ for (let k = 6; k > guesses; k--) {
 }
   
   alert (`Your score was ${score} out of 7 Great job`)
-  alert (`Just in case you want know to all of the correct answers were ${favFood}`)
+  alert (`Just in case you want to know, all of the correct answers were ${favFood}`)
   
   
   
