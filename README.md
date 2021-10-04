@@ -6,6 +6,12 @@ The user has access to information regarding DC (Daniel Cornier) including
 - Social media page
 - and employment
 
+The user will be asked a series of questions and all input from user is stored or used in responses using if or else if statements. 
+
+The last set of questions I used an array along with a for loop with a nested for loop. 
+
+## Review code for more details. 
+
 Listed above are all links embedded into the text using hrefs. 
 
 A user can access thus website using any browser and visiting (www.exmaple.com)
