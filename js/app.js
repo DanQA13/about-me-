@@ -3,7 +3,7 @@ let score =0
 alert(
   "Welcome and Hello my name is Daniel Cornier! I hope you learn something about me while you visit my page"
 );
- 
+
 let username = prompt("What is your name?");
 //console.log(username);
 alert(
@@ -13,6 +13,7 @@ alert(
     ". " +
     "Before you click ok in this window read my bio because im going to quiz you on some info about me. "
 ); score++
+
 
 let answer1 = prompt(
   "Judging on my bio do you think a dog would be my favorite animal?"
@@ -26,7 +27,7 @@ if (answer1.toLowerCase() == "Yes" || answer1 == "Y") {
     "Sorry wrong answer, try and read a little closer next time dogs are my favorite"
   );
 }
-
+function someFuncNameYouChoose() {
 let answer2 = prompt("Do you love dogs?");
 //console.log(answer2);
 if (answer2.toLowerCase() === "Yes" || answer2 === "Y") {
@@ -35,6 +36,9 @@ if (answer2.toLowerCase() === "Yes" || answer2 === "Y") {
 } else if (answer2.toLowerCase() === "No" || answer2 === "N") {
   alert("ugh idk, I may have to rethink this friendship");
 }
+}
+someFuncNameYouChoose();
+
 
 let answer3 = prompt(
   "Since this relationship may or not be going places, lets see if we can take it to the next level. Was I in the Army?"
@@ -56,16 +60,16 @@ if (answer3.toLowerCase() === "No" || answer3 === "N") {
 }
 
 let answer4 = prompt(
-  username + " " + "As I take a knee Will you ma...... too soon?"
+  username + " " + "As I take a knee Will you marry me?"
 );
 //console.log(answer4);
 if (answer4.toLowerCase() === "Yes" || answer4 === "Y") {
   alert(
-    "I was just gonna say. Will you make sure your shoes are tied before you trip, one is undone"
+    "whoa pump the breaks! I was just kidding, you move quickly!"
   );
   score++
 } else if (answer4.toLowerCase() === "No" || answer4 === "N") {
-  alert("Make sure you shoes are tied, you will trip and hurt yourself");
+  alert("Good! I didn't want to anyway ");
 }
 
 let attempts = 1
