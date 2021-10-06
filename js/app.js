@@ -3,7 +3,7 @@ let score = 0;
 alert(
   'Welcome and Hello my name is Daniel Cornier! I hope you learn something about me while you visit my page'
 );
-
+function Question1() {
 let username = prompt('What is your name?');
 //console.log(username);
 alert(
@@ -14,7 +14,7 @@ alert(
     'Before you click ok in this window read my bio because im going to quiz you on some info about me. '
 );
 score++;
-
+}
 let answer1 = prompt(
   'Judging on my bio do you think a dog would be my favorite animal?'
 );
