@@ -5,7 +5,7 @@ alert(
 );
 function Question1() {
 let username = prompt('What is your name?');
-//console.log(username);
+// console.log(username);
 alert(
   'Great to meet you' +
     ' ' +
@@ -62,6 +62,7 @@ if (answer3.toLowerCase() === 'No' || answer3 === 'N') {
     'WRONG MARINE CORPS!!! Ill give you a pass on this one. Some people generalize the branches of the military with the Army'
   );
 }
+}
 function question5() {
 let answer4 = prompt(username + ' ' + 'As I take a knee Will you marry me?');
 //console.log(answer4);
@@ -94,7 +95,7 @@ for (let i = 4; i >= attempts; i--) {
     alert(`The correct answer was ${correctAnswer},`);
   }
 }
-
+function question7() {
 let favFood = ['steak', 'sushi', 'bbq', 'italian', 'spanish food'];
 //let userInput = prompt('What was a sport I played growing up?');
 let guesses = 0;
@@ -107,6 +108,7 @@ for (let k = 6; k > guesses; k--) {
       alert('That is correct!');
       score++;
       correct = true;
+      finalScore();
     }
   }
   if (!correct) {
@@ -114,8 +116,10 @@ for (let k = 6; k > guesses; k--) {
   }
   if (correct) break;
 }
-
+}
+function finalScore() {
 alert(`Your score was ${score} out of 7 Great job`);
 alert(
   `Just in case you want to know, all of the correct answers were ${favFood}`
 );
+}
