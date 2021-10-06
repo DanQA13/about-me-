@@ -62,16 +62,17 @@ if (answer3.toLowerCase() === 'No' || answer3 === 'N') {
     'WRONG MARINE CORPS!!! Ill give you a pass on this one. Some people generalize the branches of the military with the Army'
   );
 }
-
+function question5() {
 let answer4 = prompt(username + ' ' + 'As I take a knee Will you marry me?');
 //console.log(answer4);
 if (answer4.toLowerCase() === 'Yes' || answer4 === 'Y') {
   alert('whoa pump the breaks! I was just kidding, you move quickly!');
   score++;
+  quesiton6();
 } else if (answer4.toLowerCase() === 'No' || answer4 === 'N') {
   alert("Good! I didn't want to anyway ");
 }
-
+}
 let attempts = 1;
 for (let i = 4; i >= attempts; i--) {
   let correctAnswer = 8;
