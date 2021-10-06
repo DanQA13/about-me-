@@ -14,7 +14,9 @@ alert(
     'Before you click ok in this window read my bio because im going to quiz you on some info about me. '
 );
 score++;
+question2();
 }
+function question2() {
 let answer1 = prompt(
   'Judging on my bio do you think a dog would be my favorite animal?'
 );
@@ -22,12 +24,13 @@ let answer1 = prompt(
 if (answer1.toLowerCase() == 'Yes' || answer1 == 'Y') {
   alert('You are right' + ' ' + username + ' ,' + 'I love dogs!');
   score++;
+  question3();
 } else if (answer1.toLowerCase() === 'No' || answer1 === 'N') {
   alert(
     'Sorry wrong answer, try and read a little closer next time dogs are my favorite'
   );
 }
-
+}
 let answer2 = prompt('Do you love dogs?');
 //console.log(answer2);
 if (answer2.toLowerCase() === 'Yes' || answer2 === 'Y') {
