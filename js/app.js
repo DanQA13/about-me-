@@ -31,15 +31,17 @@ if (answer1.toLowerCase() == 'Yes' || answer1 == 'Y') {
   );
 }
 }
+function question3() {
 let answer2 = prompt('Do you love dogs?');
 //console.log(answer2);
 if (answer2.toLowerCase() === 'Yes' || answer2 === 'Y') {
   alert('Then you have come to the right place! We can definitely be friends.');
   score++;
+  question4();
 } else if (answer2.toLowerCase() === 'No' || answer2 === 'N') {
   alert('ugh idk, I may have to rethink this friendship');
 }
-
+}
 let answer3 = prompt(
   'Since this relationship may or not be going places, lets see if we can take it to the next level. Was I in the Army?'
 );
