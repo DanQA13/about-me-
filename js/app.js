@@ -42,6 +42,7 @@ if (answer2.toLowerCase() === 'Yes' || answer2 === 'Y') {
   alert('ugh idk, I may have to rethink this friendship');
 }
 }
+function question4() {
 let answer3 = prompt(
   'Since this relationship may or not be going places, lets see if we can take it to the next level. Was I in the Army?'
 );
@@ -55,6 +56,7 @@ if (answer3.toLowerCase() === 'No' || answer3 === 'N') {
       'We are going places'
   );
   score++;
+  question5();
 } else if (answer3.toLowerCase() === 'Yes' || answer3 === 'Y') {
   alert(
     'WRONG MARINE CORPS!!! Ill give you a pass on this one. Some people generalize the branches of the military with the Army'
