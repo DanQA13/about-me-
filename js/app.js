@@ -73,6 +73,7 @@ if (answer4.toLowerCase() === 'Yes' || answer4 === 'Y') {
   alert("Good! I didn't want to anyway ");
 }
 }
+function quesiton6() {
 let attempts = 1;
 for (let i = 4; i >= attempts; i--) {
   let correctAnswer = 8;
@@ -81,13 +82,14 @@ for (let i = 4; i >= attempts; i--) {
   if (numberMachine === correctAnswer) {
     alert('You are correct');
     score++;
+    question7();
     break;
   } else if (numberMachine < correctAnswer) {
     alert(`Your guess is too low. You have ${i - 1} attempts remaining.`);
   } else if (numberMachine > correctAnswer) {
     alert(`Your guess is too high. You have ${i} attempts remaining.`);
   }
-
+}
   if (i === 1) {
     alert(`The correct answer was ${correctAnswer},`);
   }
