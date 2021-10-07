@@ -14,8 +14,11 @@ The last set of questions I used an array along with a for loop with a nested fo
 
 ### Navigator: Cedric
 ### Driver: Daniel
+### Wrapping functions
 
-Worked on index.html, app.js
+Worked on index.html and app.js files.
+All changes made to both files were done by using the pair programming method. To practice, our pair programming team worked on wrapping functions around all the question prompts on our website. 
+
 
 ## Review code for more details. 
 
