@@ -10,6 +10,13 @@ The user will be asked a series of questions and all input from user is stored o
 
 The last set of questions I used an array along with a for loop with a nested for loop. 
 
+## Contributions
+
+### Navigator: Cedric
+### Driver: Daniel
+
+Worked on index.html, app.js
+
 ## Review code for more details. 
 
 Listed above are all links embedded into the text using hrefs. 
