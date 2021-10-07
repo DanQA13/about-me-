@@ -19,6 +19,7 @@ if (questionOne === 'YES' || questionOne === 'Y') {
 }
 }
 FunTwo();
+FunThree();
 function FunThree() {
 let questionTwo = prompt('Do you love dogs?').toUpperCase();
 if (questionTwo === 'YES' || questionTwo === 'Y') {
@@ -29,7 +30,7 @@ if (questionTwo === 'YES' || questionTwo === 'Y') {
   alert('ugh idk, I may have to rethink this friendship');
 } 
 } FunFour();
-function FunFour() {
+  function FunFour() {
 let question3 = prompt('Since this relationship may or not be going places, lets see if we can take it to the next level. Was I in the Army?').toUpperCase();
 if (question3 === 'NO' || question3 === 'N') {
   alert('You truly are listening when I speak' +
